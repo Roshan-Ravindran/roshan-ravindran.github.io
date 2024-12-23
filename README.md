@@ -11,7 +11,6 @@
 
 <br>
 
-# ![screenshot](https://github.com/GregSithole/gregsithole-react-portfolio/raw/master/src/assets/screenshot.png)
 
 
 <!-- ## Credits
