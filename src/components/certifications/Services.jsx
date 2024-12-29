@@ -1,37 +1,37 @@
 import React from 'react';
 import './Services.css';
-import Image1 from '../../assets/service-1.svg'
-import Image2 from '../../assets/service-2.svg'
-import Image3 from '../../assets/service-3.svg'
+import Image1 from '../../assets/CKA.png'
+import Image2 from '../../assets/AWS-solution-architect.png'
+import Image3 from '../../assets/cisco-nwess.png'
 
 const data = [
     {
         id: 1,
         image: Image1,
-        title: "Responsive design",
+        title: "Certified Kubernetes Administrator",
         description:
-            "Ensuring that the website/mobile app is responsive across all platforms",
+            "Currently pursuing CKA course to achieve the certification",
     },
     {
         id: 2,
         image: Image2,
-        title: "Web Development",
+        title: "AWS Certified Solutions Architect Associate ",
         description:
-            "Ensuring that that a website meets the correct standards, and also ensuring it's well maintained",
+            "Currently pursuing an Udemy course to achieve the certification",
     },
     {
         id: 3,
         image: Image3,
-        title: "Mobile Development",
+        title: "Cisco Networking Essentials",
         description:
-            "Ensuring that a mobile app meets the correct standards, and also ensuring it's well maintained",
+            "Obtained the certification with fundamental knowledge on Protocols, DHCP address, IPv4 and IPv6 address, Network security, VPN, etc.",
     },
 ];
 
 const Services = () => {
     return (
         <section className="services container section" id="services">
-            <h2 className="section__title">Services</h2>
+            <h2 className="section__title">Certifications</h2>
 
             <div className="services__container grid">
                 {data.map(({ id, image, title, description }) => {

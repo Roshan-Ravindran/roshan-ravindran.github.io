@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css';
-import Image from '../../assets/avatar-2.svg';
+import Image from '../../assets/me-2.jpg';
 import Resume from '../../assets/resume.pdf';
 import AboutBox from './AboutBox';
 
@@ -20,20 +20,18 @@ const About = () => {
                 <div className="about__data grid">
                     <div className="about__info">
                         <p className="about__description">
-                            Hello! I'm Greg, and I'm based in Johannesburg, South Africa. I studied at Varisty College Sandton, where I completed my diploma in Software Development.<br /><br />
-                            Fastforward to today, and I can honestly say it's been a beautiful journery and I hope to grow even further as Software Engineer. My current focus these days
-                            is on expanidng my portfolio by building more projects that I can add on here, as well as being a great team player at my current role.<br /><br />
-                            Here are a few technologies I’ve been working with recently:
+                        Hi there! I'm Roshan, and I’m currently based in Vancouver, Canada. I recently completed my Master’s in Cybersecurity at SFU and have gained hands-on experience through my co-op at Vosyn. <br /><br />
+                        It’s been an exciting journey so far, and I’m eager to continue growing in the field of Cybersecurity, Cloud Computing, and DevOps. These days, I’m focused on refining my skills by working on projects, contributing to open-source repositories, and preparing for certifications to expand my knowledge. <br /><br />
+                        Currently, I’m working on enhancing my technical abilities, collaborating with teams, and exploring new opportunities in the tech space. <br /><br />
+                        Here are some of the technologies I’ve been diving into recently:
                         </p>
                         <ul className="about__list">
-                            <li>JavaScript (ES6+)</li>
-                            <li>TypeScript</li>
-                            <li>React</li>
-                            <li>Node.js</li>
-                            <li>Postgres SQL</li>
-                            <li>NestJS</li>
+                            <li>AWS Cloud Practioner Certification</li>
+                            <li>Certified Kubernetes Administrator</li>
+                            <li>Terraform</li>
+                            <li>Javascript</li>
                         </ul>
-                        <button className="btn" onClick={downloadResume}>Donwload CV</button>
+                        <button className="btn" onClick={downloadResume}>Download CV</button>
                     </div>
 
                     {/* <div className="about__skills grid">

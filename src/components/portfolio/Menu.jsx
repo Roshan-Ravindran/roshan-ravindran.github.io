@@ -1,39 +1,30 @@
-import Work1 from "../../assets/native-jobs.png";
-import Work2 from "../../assets/cryptoverse.png";
-import Work3 from "../../assets/travel.png";
+import Work1 from "../../assets/AWS-CIS.png";
+import Work2 from "../../assets/kubebench.png";
+import Work3 from "../../assets/gihub-actions.jpg";
 import Work4 from "../../assets/blog-1.svg";
 
 const Menu = [
 	{
 		id: 1,
 		image: Work1,
-		title: "React Native Jobs App",
-		category: ["Frontend", "React"],
-		repositoryUrl: "https://github.com/GregSithole/react-native-jobs"
+		title: "Implementing CIS Security Benchmarks for Amazon AWS Services with Automation",
+		category: ["AWS", "Security"],
+		repositoryUrl: ""
 	},
 	{
 		id: 2,
 		image: Work2,
-		title: "Cryptoverse",
-		category: ["Frontend", "React"],
-		url: "https://cryptoverse.gregsithole.com",
-		repositoryUrl: "https://github.com/GregSithole/crypto-app"
+		title: "Securing Kubernetes Environment with CIS Benchmarks",
+		category: ["Kubernetes", "Security"],
+		url: "",
+		repositoryUrl: ""
 	},
 	{
 		id: 3,
 		image: Work3,
-		title: "Travel Advisor",
-		category: ["Frontend"],
-		url: "https://travel.gregsithole.com",
-		repositoryUrl: "https://github.com/GregSithole/travel-advisor"
-	},
-	{
-		id: 4,
-		image: Work4,
-		title: "Wallhaven CLI",
-		category: ["Backend"],
-		url: "https://www.npmjs.com/package/wallhaven-cli",
-		repositoryUrl: "https://github.com/GregSithole/wallhaven-cli"
+		title: "GitHub Actions Security Scanner",
+		category: ["Github, Security", "Development"],
+		repositoryUrl: "https://github.com/Roshan-Ravindran/github-actions-security-scanner"
 	}
 ];
 

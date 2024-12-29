@@ -1,66 +1,42 @@
 const WorkExperience = [
     {
         id: 1,
-        title: "Software Engineer",
-        company: "Kurtosys",
-        yearsActive: "January 2022 - Present",
+        title: "Cloud Engineer Intern",
+        company: "Vosyn",
+        yearsActive: "June 2024 - Sept 2024",
         information: [
-            "Write modern, performant, maintainable code for a diverse array of internal projects",
-            "Communicate with multi-disciplinary teams of engineers, team leads, and QA Engineers on a daily basis",
+            "Gained hands-on experience with AWS architecture, Docker, ECS, and container orchestration",
+            "Implemented and maintained GitHub Actions for CI/CD pipelines, automating testing, building, and deployment processes. ",
+            "Provisioned and manage AWS infrastructure, including Lambda, EC2, ECR, ECS, and S3, to support the pipeline’s development and maintenance. ",
+            "Configure Flask endpoints for the MLOps pipeline using AWS ECS, ECR, Docker, and GitHub Actions. ",
+            "Led the development of the VosynConnect Demo UI Webpage and collaborated with the Frontend team on Next.js to ensure smooth progress and task completion. ",
+            "Drafted and formatted MVP design documentation for review by the founders, including capturing feedback and iterating on designs.",
+            "Participated in daily scrum meetings, sprint planning, and retrospectives, contributing to effective project management and team collaboration",
         ],
     },
     {
         id: 2,
-        title: "Junior Software Developer",
-        company: "Entrostat",
-        yearsActive: "May 2017 - December 2021",
+        title: "Teaching Assistant",
+        company: "Simon Fraser University",
+        yearsActive: "Sept 2023 - Present",
         information: [
-            "Improved and optimized the company's website for a seamless customer experience",
-            "Created, communicated, and managed project plans & project timelines",
-            "Worked to continually meet the expectation of our clients",
+            "Effectively communicate complex technical concepts to undergraduate students in a clear and understandable manner during weekly session.",
+            "Serve as a mentor to guide students through challenging topics in `Data Communications and Networking' as well as `Cryptography and Cryptographic Protocols'.",
+            "Remain flexible in managing workload demands, effectively balancing responsibilities such as grading assignments, conducting sessions, and providing feedback to meet deadlines and student needs"
         ],
     },
     {
         id: 3,
-        title: "Junior Software Developer",
-        company: "Empire State",
-        yearsActive: "Feburary 2016 - April 2017",
+        title: "Web Application Developer Intern",
+        company: "Engine Factory Avadi",
+        yearsActive: "June 2022 - July 2022",
         information: [
-            "Planned, developed, tested, deployed, and maintained web applications and mobile applications",
-            "Worked well independently and on a team to solve problems."
+            "Designed and developed a dynamic and responsive website using HTML, CSS, JavaScript, and PHP to manage dessert and snack booking.",
+            "Utilized SQL queries within an Informix Server backend environment to facilitate data retrieval operations from databases.",
+            "Facilitated ongoing communication with cafeteria staff through regular meetings to provide updates on website development progress and gather valuable feedback on potential enhancements and features.",
+            "Reduced manual workload by 80% in managing cafeteria sales, significantly benefiting staff and enhancing operational efficiency. ",
         ],
-    },
-    {
-        id: 4,
-        title: "Software Development Intern",
-        company: "The Digital Academy",
-        yearsActive: "Novembe 2015 - January 2016",
-        information: [
-            "Served as a dedicated and supportive Intern in a fast-paced environment",
-            "Worked to solve complex problems using the latest in Mobile and Web Technologies.",
-        ],
-    },
-    {
-        id: 5,
-        title: "IT Support Assistant",
-        company: "Varsity College",
-        yearsActive: "February 2015 - May 2015",
-        information: [
-            "Worked to support the senior support staff with day-to-day tasks.",
-            "Assisted with the evaluation and troubleshooting of hardware and software issues.",
-            "Maintaining computer Inventory & surplus equipment."
-        ],
-    },
-    {
-        id: 6,
-        title: "Student Ambassador",
-        company: "Varsity College",
-        yearsActive: "December 2014 - February 2015",
-        information: [
-            "Monitored registration for all prospective student",
-            "Assisted parents and prospective student with necessary registration details",
-        ],
-    },
+    }
 ];
 
 export default WorkExperience;
