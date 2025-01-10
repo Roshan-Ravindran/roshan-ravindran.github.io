@@ -1,17 +1,15 @@
 <h1 align="center">
   <br>
   <a href="https://roshan-ravindran.github.io/">
-  <img src="./src/assets/light-logo.svg" alt="GregSithole" width="200"></a>
+  <img src="./src/assets/RR.png" alt="RoshanRavindran" width="200"></a>
   <br>
   Roshan Ravindran's Personal Website
   <br>
 </h1>
 
-<h4 align="center">A simple personal website about <a href="https://roshan-ravindran.github.io/" target="_blank">roshan Ravindran</a>.</h4>
+<h4 align="center">A simple personal website about <a href="https://roshan-ravindran.github.io/" target="_blank">Roshan Ravindran</a>.</h4>
 
 <br>
-
-
 
 <!-- ## Credits
 
