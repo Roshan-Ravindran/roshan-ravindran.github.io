@@ -37,6 +37,13 @@
   box-shadow: var(--shadow);
 }
 
+.portfolio__img {
+}
+
+.portfolio__thumbnail {
+
+}
+
 .portfolio__mask {
   background-color: #6c6ce5;
   position: absolute;
@@ -69,7 +76,7 @@
 
 .portfolio__title {
   color: #fff;
-  font-size: var(--h3-font-size);
+  font-size: var(--h11-font-size);
   margin: 0 0 0.98rem;
   padding: 0 1.25rem;
   position: absolute;
