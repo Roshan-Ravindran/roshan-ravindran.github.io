@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.26d2716b.css",
-    "main.js": "/static/js/main.1a58baaf.js",
+    "main.css": "/static/css/main.55fb9947.css",
+    "main.js": "/static/js/main.c3a26c5c.js",
     "static/media/me-2.jpg": "/static/media/me-2.1d3c4f99eb3d29d69041.jpg",
     "static/media/RR.png": "/static/media/RR.75dcb4d212034ddc5d21.png",
     "static/media/ZAP.jpg": "/static/media/ZAP.7e39b46d3e53bf333b8f.jpg",
-    "static/media/resume.pdf": "/static/media/resume.2756f2c5eda80a62ee7b.pdf",
+    "static/media/resume.pdf": "/static/media/resume.2f24d50ab7a382d6b4be.pdf",
     "static/media/me.jpg": "/static/media/me.153278ae81c0cd8ec6b2.jpg",
     "static/media/blog-1.svg": "/static/media/blog-1.f765e1b0fff9fb909ed6db7a682ac4e2.svg",
     "static/media/gihub-actions.jpg": "/static/media/gihub-actions.a6726d4e4db710eca1aa.jpg",
@@ -20,11 +20,11 @@
     "static/media/dots-bg.svg": "/static/media/dots-bg.f9af2a6a4e3508808a05.svg",
     "static/media/light-logo.svg": "/static/media/light-logo.060bc1a33908778a0f6c21523c22a8dd.svg",
     "index.html": "/index.html",
-    "main.26d2716b.css.map": "/static/css/main.26d2716b.css.map",
-    "main.1a58baaf.js.map": "/static/js/main.1a58baaf.js.map"
+    "main.55fb9947.css.map": "/static/css/main.55fb9947.css.map",
+    "main.c3a26c5c.js.map": "/static/js/main.c3a26c5c.js.map"
   },
   "entrypoints": [
-    "static/css/main.26d2716b.css",
-    "static/js/main.1a58baaf.js"
+    "static/css/main.55fb9947.css",
+    "static/js/main.c3a26c5c.js"
   ]
 }
