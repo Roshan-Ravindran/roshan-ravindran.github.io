@@ -20,9 +20,20 @@ const About = () => {
                 <div className="about__data grid">
                     <div className="about__info">
                         <p className="about__description">
-                        Hi there! I'm Roshan, and I’m currently based in Vancouver, Canada. I recently completed my Master’s in Cybersecurity at SFU and have gained hands-on experience through my co-op at Vosyn. <br /><br />
-                        It’s been an exciting journey so far, and I’m eager to continue growing in the field of Cybersecurity, Cloud Computing, and DevOps. These days, I’m focused on refining my skills by working on projects, contributing to open-source repositories, and preparing for certifications to expand my knowledge. <br /><br />
-                        Currently, I’m working on enhancing my technical abilities, collaborating with teams, and exploring new opportunities in the tech space. <br /><br />
+                        I’m Roshan. A recent Master’s graduate in Cybersecurity from SFU with a passion for solving complex problems and automating solutions. My journey has been shaped by hands-on experience in cloud computing, DevOps, and cybersecurity.
+                        <br /><br />
+                        💻 What I Do <br /><br />
+                        {'>'} Cloud Security & DevOps: I’ve worked on deploying secure solutions using AWS, Kubernetes, and Jenkins, ensuring compliance with industry benchmarks like CISv1.4.0.<br />
+                        {'>'} At Vosyn, I led a team to develop and deploy the VosynConnect demo prototype while collaborating on frontend development and GCP hosting.<br />
+                        <br /><br />
+                        🎯 What Drives Me<br /><br />
+                        I thrive on exploring emerging technologies and enhancing my skills to make a tangible impact.<br /><br />
+
+                        🚀 My current goals include:<br /><br />
+                        {'>'} Gaining certifications in AWS and Kubernetes<br />
+                        {'>'} Building personal projects to showcase my expertise in cloud and DevOps<br />
+                        {'>'} Contributing to open-source communities<br />
+                         <br /><br />
                         Here are some of the technologies I’ve been diving into recently:
                         </p>
                         <ul className="about__list">
