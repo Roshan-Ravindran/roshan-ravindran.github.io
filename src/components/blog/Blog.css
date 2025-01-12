@@ -1,6 +1,7 @@
 .blog__container {
   grid-template-columns: repeat(3, 1fr);
   column-gap: 1.875rem;
+  gap: 1.875rem;
 }
 
 .blog__card {
@@ -41,6 +42,7 @@
 .blog__details {
   background-color: var(--container-color);
   padding: 1.25rem;
+  height: 100%;
 }
 
 .blog__title {

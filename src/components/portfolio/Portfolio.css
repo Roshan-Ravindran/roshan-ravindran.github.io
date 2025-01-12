@@ -35,13 +35,47 @@
   overflow: hidden;
   border-radius: var(--border-radius);
   box-shadow: var(--shadow);
-}
-
-.portfolio__img {
+  align-items: center; /* Centers content horizontally */
+  justify-content: center;
 }
 
 .portfolio__thumbnail {
+  position: relative;
+  width: 100%; /* Full width of the card */
+  height: 267px; /* Set a fixed height for consistency */
+  display: flex;
+  justify-content: center; /* Center the image horizontally */
+  align-items: center; /* Center the image vertically */
+  background-size: cover; /* Ensure the background covers the space */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent repetition */
+  overflow: hidden;
+}
 
+.portfolio__thumbnail::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  filter: blur(15px); /* Blur the background */
+  z-index: 1;
+  background-image: inherit; /* Inherit the thumbnail's background */
+}
+
+.portfolio__img {
+  position: relative;
+  max-width: 95%;
+  max-height: 95%;
+  object-fit: contain; /* Maintain the image's aspect ratio */
+  border-radius: var(--border-radius);
+}
+
+.portfolio__card:first-child .portfolio__img {
+  border-radius: 0; /* No rounded corners for the first image */
 }
 
 .portfolio__mask {
