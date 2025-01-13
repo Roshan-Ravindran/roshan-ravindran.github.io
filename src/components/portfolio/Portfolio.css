@@ -142,7 +142,7 @@
   color: #fff;
   position: absolute;
   bottom: 1.5rem;
-  left: 4.5rem;
+  left: 1.5rem;
   font-size: var(--h3-font-size);
   display: block;
   background-color: #ffd15c;
@@ -154,6 +154,7 @@
   line-height: 42px;
   transition: 0.3s;
   opacity: 0;
+  z-index: 10;
 }
 
 .portfolio__card:hover .portfolio__button,

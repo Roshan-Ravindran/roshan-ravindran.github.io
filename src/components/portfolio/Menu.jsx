@@ -9,7 +9,7 @@ const Menu = [
 		image: Work1,
 		title: "Implementing CIS Security Benchmarks for Amazon AWS Services with Automation",
 		category: ["AWS", "Security"],
-		repositoryUrl: ""
+		repositoryUrl: "https://github.com/Roshan-Ravindran/CIS-Benchmarks-AutoRemediation-in-AWS-Organization"
 	},
 	{
 		id: 2,
@@ -17,7 +17,7 @@ const Menu = [
 		title: "Securing Kubernetes Environment with CIS Benchmarks",
 		category: ["Kubernetes", "Security"],
 		url: "",
-		repositoryUrl: ""
+		repositoryUrl: "https://github.com/Roshan-Ravindran/Automatic-Hardening-of-K8S-Cluster-with-CIS-Benchmarks"
 	},
 	{
 		id: 3,
