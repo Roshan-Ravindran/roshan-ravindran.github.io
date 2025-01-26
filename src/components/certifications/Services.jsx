@@ -10,7 +10,7 @@ const data = [
         image: Image1,
         title: "Certified Kubernetes Administrator",
         description:
-            "Currently pursuing CKA course to achieve the certification",
+            "Sucessfuly achieved the certification",
     },
     {
         id: 2,
