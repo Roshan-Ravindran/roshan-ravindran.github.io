@@ -10,7 +10,8 @@ const data = [
         image: Image1,
         title: "Certified Kubernetes Administrator",
         description:
-            "Sucessfuly achieved the certification",
+            "Sucessfully achieved the certification",
+        link: "https://www.credly.com/badges/24f0187c-c470-4221-af3a-ef5f66e0fc0b/public_url"
     },
     {
         id: 2,
@@ -24,7 +25,8 @@ const data = [
         image: Image3,
         title: "Cisco Networking Essentials",
         description:
-            "Obtained the certification with fundamental knowledge on Protocols, DHCP address, IPv4 and IPv6 address, Network security, VPN, etc.",
+            "Obtained the certification with fundamental knowledge on Networking",
+        link: "https://www.linkedin.com/in/roshan-ravindran/details/certifications/1635545855008/single-media-viewer/?profileId=ACoAABagZP0B0eDL62FF3FpGmwA-i7nWxrtP1Fc"
     },
 ];
 
@@ -34,13 +36,15 @@ const Services = () => {
             <h2 className="section__title">Certifications</h2>
 
             <div className="services__container grid">
-                {data.map(({ id, image, title, description }) => {
+                {data.map(({ id, image, title, description,link }) => {
                     return (
+                        
                         <div className="services__card" key={id}>
-                            <img src={image} alt='' className='services__img' width="80" />
+                            <a href={link} target="_blank" rel="noreferrer" >
+                            <img href={link} src={image} alt='' className='services__img' width="80" />
 
                             <h3 className="services__title">{title}</h3>
-                            <p className="services__description">{description}</p>
+                            <p className="services__description">{description}</p> </a>
                         </div>
                     )
                 })}
