@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.7bf9a569.css",
-    "main.js": "/static/js/main.13132ce4.js",
+    "main.js": "/static/js/main.a32c7547.js",
     "static/media/me-2.jpg": "/static/media/me-2.1d3c4f99eb3d29d69041.jpg",
     "static/media/windowsancilary.png": "/static/media/windowsancilary.e0b466599772d70b846d.png",
     "static/media/devel.png": "/static/media/devel.71b7fa95be91a8a646d7.png",
     "static/media/RR.png": "/static/media/RR.75dcb4d212034ddc5d21.png",
     "static/media/ZAP.jpg": "/static/media/ZAP.7e39b46d3e53bf333b8f.jpg",
-    "static/media/resume.pdf": "/static/media/resume.2f24d50ab7a382d6b4be.pdf",
+    "static/media/resume.pdf": "/static/media/resume.ba18a5cff325dd194563.pdf",
     "static/media/me.jpg": "/static/media/me.153278ae81c0cd8ec6b2.jpg",
     "static/media/blog-1.svg": "/static/media/blog-1.f765e1b0fff9fb909ed6db7a682ac4e2.svg",
     "static/media/gihub-actions.jpg": "/static/media/gihub-actions.a6726d4e4db710eca1aa.jpg",
@@ -21,10 +21,10 @@
     "static/media/dots-bg.svg": "/static/media/dots-bg.f9af2a6a4e3508808a05.svg",
     "index.html": "/index.html",
     "main.7bf9a569.css.map": "/static/css/main.7bf9a569.css.map",
-    "main.13132ce4.js.map": "/static/js/main.13132ce4.js.map"
+    "main.a32c7547.js.map": "/static/js/main.a32c7547.js.map"
   },
   "entrypoints": [
     "static/css/main.7bf9a569.css",
-    "static/js/main.13132ce4.js"
+    "static/js/main.a32c7547.js"
   ]
 }
