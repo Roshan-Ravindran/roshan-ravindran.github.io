@@ -24,6 +24,10 @@
   height: 3.75rem;
 }
 
+
+.contact__email{
+  color: rgb(233, 111, 217);
+}
 .contact__form-input {
   position: absolute;
   top: 0;

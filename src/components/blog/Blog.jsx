@@ -5,6 +5,7 @@ import Image1 from '../../assets/SSO.png';
 import Image2 from '../../assets/windowsancilary.png';
 import Image3 from '../../assets/devel.png';
 import Image4 from '../../assets/ZAP.jpg';
+import Image5 from '../../assets/kube.png';
 
 const Blog = () => {
     return (
@@ -12,6 +13,21 @@ const Blog = () => {
             <h2 className="section__title">Latest Posts</h2>
 
             <div className="blog__container grid">
+                <div className="blog__card">
+                    <div className="blog__thumb">
+                        <a href=""><span className="blog__category">Kubernetes</span></a>
+                        <a href="https://medium.com/@itsroshanr/my-journey-to-cka-certification-lessons-tips-and-a-handy-cheatsheet-34f6ea144ed9"><img src={Image5} alt="" className='blog__img' /></a>
+                    </div>
+                    <div className="blog__details">
+                        <h3 className="blog__title">My Journey to CKA Certification: Lessons, Tips, and a Handy Cheatsheet</h3>
+                        <div className="blog__meta">
+                            <span>02 February, 2025</span>
+                            <span className="blog__dot">.</span>
+                            <span>Roshan</span>
+                        </div>
+                    </div>
+                </div>
+
                 <div className="blog__card">
                     <div className="blog__thumb">
                         <a href="https://www.usenix.org/conference/usenixsecurity23/presentation/gavazzi"><span className="blog__category">SSO</span></a>

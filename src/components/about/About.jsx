@@ -30,17 +30,16 @@ const About = () => {
                         I thrive on exploring emerging technologies and enhancing my skills to make a tangible impact.<br /><br />
 
                         🚀 My current goals include:<br /><br />
-                        {'>'} Gaining certifications in AWS and Kubernetes<br />
+                        {'>'} Gaining Certifications to showcase my skills<br />
                         {'>'} Building personal projects to showcase my expertise in cloud and DevOps<br />
                         {'>'} Contributing to open-source communities<br />
                          <br /><br />
                         Here are some of the technologies I’ve been diving into recently:
                         </p>
                         <ul className="about__list">
-                            <li>AWS Cloud Practioner Certification</li>
-                            <li>Certified Kubernetes Administrator</li>
+                            <li>AWS Solution Architect Certification</li>
                             <li>Terraform</li>
-                            <li>Javascript</li>
+                            <li>Jenkins</li>
                         </ul>
                         <button className="btn" onClick={downloadResume}>Download CV</button>
                     </div>

@@ -1,6 +1,7 @@
 .services__container {
   grid-template-columns: repeat(3, 1fr);
   column-gap: 1.875rem;
+  row-gap: 1.875rem;
 }
 
 .services__card {
@@ -27,6 +28,11 @@
 
 .services__card:nth-child(3) {
   background-color: rgb(249, 123, 139);
+  box-shadow: 0 5px 20px 0 rgb(249, 123, 139 / 50%);
+}
+
+.services__card:nth-child(4){
+  background-color: rgb(110, 187, 215);
   box-shadow: 0 5px 20px 0 rgb(249, 123, 139 / 50%);
 }
 

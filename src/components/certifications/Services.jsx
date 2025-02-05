@@ -2,7 +2,8 @@ import React from 'react';
 import './Services.css';
 import Image1 from '../../assets/CKA.png'
 import Image2 from '../../assets/AWS-solution-architect.png'
-import Image3 from '../../assets/cisco-nwess.png'
+import Image3 from '../../assets/google-cloud.png'
+import Image4 from '../../assets/cisco-nwess.png'
 
 const data = [
     {
@@ -10,7 +11,7 @@ const data = [
         image: Image1,
         title: "Certified Kubernetes Administrator",
         description:
-            "Sucessfully achieved the certification",
+            "Successfully passed the Certified Kubernetes Administrator exam conducted by the Cloud Native Computing Foundation",
         link: "https://www.credly.com/badges/24f0187c-c470-4221-af3a-ef5f66e0fc0b/public_url"
     },
     {
@@ -18,16 +19,24 @@ const data = [
         image: Image2,
         title: "AWS Certified Solutions Architect Associate ",
         description:
-            "Currently pursuing an Udemy course to achieve the certification",
+            "currently preparing for the AWS Certified Solutions Architect Professional",
     },
     {
         id: 3,
         image: Image3,
+        title: "Google Cloud Fundamentals for AWS Professionals",
+        description:
+            "This course is designed to help AWS professionals to get up to speed with Google Cloud Platform",
+        link: "https://www.cloudskillsboost.google/public_profiles/fa54f44f-3e48-4e4a-9f00-26125ee3a5c8/badges/11256999"
+    },
+    {
+        id: 4,
+        image: Image4,
         title: "Cisco Networking Essentials",
         description:
             "Obtained the certification with fundamental knowledge on Networking",
         link: "https://www.linkedin.com/in/roshan-ravindran/details/certifications/1635545855008/single-media-viewer/?profileId=ACoAABagZP0B0eDL62FF3FpGmwA-i7nWxrtP1Fc"
-    },
+    }
 ];
 
 const Services = () => {
