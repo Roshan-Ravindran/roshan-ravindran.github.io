@@ -1,7 +1,6 @@
 import Work1 from "../../assets/AWS-CIS.png";
 import Work2 from "../../assets/kubebench.png";
 import Work3 from "../../assets/gihub-actions.jpg";
-import Work4 from "../../assets/blog-1.svg";
 
 const Menu = [
 	{
