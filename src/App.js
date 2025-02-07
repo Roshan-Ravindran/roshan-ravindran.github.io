@@ -1,5 +1,4 @@
 import './App.css';
-
 import Sidebar from './components/sidebar/Sidebar';
 import Home from './components/home/Home';
 import About from './components/about/About';
@@ -12,7 +11,10 @@ import Contact from './components/contact/Contact';
 import useLocalStorage from 'use-local-storage'
 
 
+
 function App() {
+
+
     const defaultDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
     const [theme, setTheme] = useLocalStorage('theme', defaultDark ? 'dark' : 'light');
 
