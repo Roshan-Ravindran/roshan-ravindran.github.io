@@ -6,13 +6,32 @@ import Image2 from '../../assets/windowsancilary.png';
 import Image3 from '../../assets/devel.png';
 import Image4 from '../../assets/ZAP.jpg';
 import Image5 from '../../assets/kube.png';
+import Image6 from '../../assets/kube2.png';
 
 const Blog = () => {
     return (
         <section className="blog container section" id="blog">
             <h2 className="section__title">Latest Posts</h2>
 
+
             <div className="blog__container grid">
+
+                <div className="blog__card">
+                    <div className="blog__thumb">
+                        <a href=""><span className="blog__category">Kubernetes</span></a>
+                        <a href="https://www.linkedin.com/posts/roshan-ravindran_kubernetes-cloudcomputing-devops-activity-7284797578250985472-ydWe?utm_source=share&utm_medium=member_desktop"><img src={Image6} alt="" className='blog__img' /></a>
+                    </div>
+                    <div className="blog__details">
+                        <h3 className="blog__title">🌐 Accessing My Kubernetes Cluster from Anywhere: Lessons Learned</h3>
+                        <div className="blog__meta">
+                            <span>20 January, 2025</span>
+                            <span className="blog__dot">.</span>
+                            <span>LinkedIn</span>
+                        </div>
+                    </div>
+                </div>
+
+
                 <div className="blog__card">
                     <div className="blog__thumb">
                         <a href=""><span className="blog__category">Kubernetes</span></a>
@@ -23,7 +42,7 @@ const Blog = () => {
                         <div className="blog__meta">
                             <span>02 February, 2025</span>
                             <span className="blog__dot">.</span>
-                            <span>Roshan</span>
+                            <span>Medium</span>
                         </div>
                     </div>
                 </div>
@@ -38,7 +57,7 @@ const Blog = () => {
                         <div className="blog__meta">
                             <span>10 October, 2023</span>
                             <span className="blog__dot">.</span>
-                            <span>Roshan</span>
+                            <span>Medium</span>
                         </div>
                     </div>
                 </div>
@@ -52,7 +71,7 @@ const Blog = () => {
                         <div className="blog__meta">
                             <span>14 December, 2023</span>
                             <span className="blog__dot">.</span>
-                            <span>Roshan</span>
+                            <span>Medium</span>
                         </div>
                     </div>
                 </div>
@@ -66,7 +85,7 @@ const Blog = () => {
                         <div className="blog__meta">
                             <span>14 December, 2023</span>
                             <span className="blog__dot">.</span>
-                            <span>Roshan</span>
+                            <span>Medium</span>
                         </div>
                     </div>
                 </div>
@@ -80,7 +99,7 @@ const Blog = () => {
                         <div className="blog__meta">
                             <span>14 December, 2023</span>
                             <span className="blog__dot">.</span>
-                            <span>Roshan</span>
+                            <span>Medium</span>
                         </div>
                     </div>
                 </div>
