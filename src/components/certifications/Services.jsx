@@ -19,7 +19,7 @@ const data = [
         image: Image2,
         title: "AWS Certified Solutions Architect Associate ",
         description:
-            "currently preparing for the AWS Certified Solutions Architect Professional",
+            "Currently preparing for the AWS Certified Solutions Architect Associate exam",
     },
     {
         id: 3,
