@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.680c649e.css",
-    "main.js": "/static/js/main.6ae068fb.js",
+    "main.css": "/static/css/main.241edc84.css",
+    "main.js": "/static/js/main.8682a530.js",
     "static/media/me-2.jpg": "/static/media/me-2.448ad2f87359e1a88fae.jpg",
     "static/media/windowsancilary.png": "/static/media/windowsancilary.e0b466599772d70b846d.png",
     "static/media/devel.png": "/static/media/devel.71b7fa95be91a8a646d7.png",
     "static/media/RR.png": "/static/media/RR.75dcb4d212034ddc5d21.png",
     "static/media/kube.png": "/static/media/kube.8dfc77caf1e9f3795d28.png",
     "static/media/ZAP.jpg": "/static/media/ZAP.7e39b46d3e53bf333b8f.jpg",
-    "static/media/resume.pdf": "/static/media/resume.ba18a5cff325dd194563.pdf",
+    "static/media/resume.pdf": "/static/media/resume.e9baef0d56ef534ad047.pdf",
     "static/media/me.jpg": "/static/media/me.153278ae81c0cd8ec6b2.jpg",
     "static/media/gihub-actions.jpg": "/static/media/gihub-actions.a6726d4e4db710eca1aa.jpg",
     "static/media/kubebench.png": "/static/media/kubebench.1181b382d8da6a504ba1.png",
@@ -22,11 +22,11 @@
     "static/media/dots-bg-dark.svg": "/static/media/dots-bg-dark.3fb919e37bd3f4cdeed2.svg",
     "static/media/dots-bg.svg": "/static/media/dots-bg.f9af2a6a4e3508808a05.svg",
     "index.html": "/index.html",
-    "main.680c649e.css.map": "/static/css/main.680c649e.css.map",
-    "main.6ae068fb.js.map": "/static/js/main.6ae068fb.js.map"
+    "main.241edc84.css.map": "/static/css/main.241edc84.css.map",
+    "main.8682a530.js.map": "/static/js/main.8682a530.js.map"
   },
   "entrypoints": [
-    "static/css/main.680c649e.css",
-    "static/js/main.6ae068fb.js"
+    "static/css/main.241edc84.css",
+    "static/js/main.8682a530.js"
   ]
 }
