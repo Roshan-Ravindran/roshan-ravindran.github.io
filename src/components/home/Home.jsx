@@ -2,7 +2,7 @@ import React from 'react';
 import './Home.css';
 import Me from '../../assets/me.jpg';
 import HeaderSocials from './HeaderSocials';
-import ScrollDown from './ScrollDown';
+//import ScrollDown from './ScrollDown';
 import Shapes from './Shapes';
 
 const Home = () => {
@@ -16,8 +16,8 @@ const Home = () => {
                 <HeaderSocials />
 
                 <a href="#contact" className="btn"> Contact Me</a>
-
-                <ScrollDown />
+                {/* Include the ScrollDown component  <ScrollDown />    */}
+                
             </div>
 
             <Shapes />

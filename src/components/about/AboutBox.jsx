@@ -1,5 +1,8 @@
 import React from 'react'
-import { RiFireLine, RiCupLine, RiGroupLine, RiTrophyLine } from 'react-icons/ri';
+import { RiFireLine, RiCupLine, RiAmazonFill } from 'react-icons/ri';
+import { SiKubernetes } from "react-icons/si";
+import { FaPython } from "react-icons/fa";
+
 
 const AboutBox = () => {
     return (
@@ -14,29 +17,29 @@ const AboutBox = () => {
             </div>
 
             <div className="about__box">
-                <RiCupLine className='about__icon' />
+                <SiKubernetes className='about__icon' />
 
                 <div>
-                    <h3 className="about__title">11</h3>
-                    <span className="about__subtitle">Github Repositories</span>
+                    <h3 className="about__title">70%</h3>
+                    <span className="about__subtitle">Kubernetes</span>
                 </div>
             </div>
 
             <div className="about__box">
-                <RiGroupLine className='about__icon' />
+                <RiAmazonFill className='about__icon' />
 
                 <div>
-                    <h3 className="about__title">3</h3>
-                    <span className="about__subtitle">Launched Projects</span>
+                    <h3 className="about__title">80%</h3>
+                    <span className="about__subtitle">AWS</span>
                 </div>
             </div>
 
             <div className="about__box">
-                <RiTrophyLine className='about__icon' />
+                <FaPython className='about__icon' />
 
                 <div>
-                    <h3 className="about__title">100%</h3>
-                    <span className="about__subtitle">Code Quality</span>
+                    <h3 className="about__title">70%</h3>
+                    <span className="about__subtitle">Python</span>
                 </div>
             </div>
         </div>

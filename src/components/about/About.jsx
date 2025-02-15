@@ -26,16 +26,16 @@ const About = () => {
                         {'▹'} Cloud Security & DevOps: I’ve worked on deploying secure solutions using AWS, Kubernetes, and Jenkins, ensuring compliance with industry benchmarks like CISv1.4.0.<br />
                         {'▹'} At Vosyn, I led a team to develop and deploy the VosynConnect demo prototype while collaborating on frontend development and GCP hosting.<br />
                         <br /><br />
-                        🎯 What Drives Me<br /><br />
-                        I thrive on exploring emerging technologies and enhancing my skills to make a tangible impact.<br /><br />
 
                         🚀 My current goals include:<br /><br />
                         {'▹'} Gaining Certifications to showcase my skills<br />
                         {'▹'} Building personal projects to showcase my expertise in cloud and DevOps<br />
                         {'▹'} Contributing to open-source communities<br />
-                         <br /><br />
+                        <br /><br />
+                        
                         Here are some of the technologies I’ve been diving into recently:
                         </p>
+                        
                         <ul className="about__list">
                             <li>AWS Solution Architect Certification</li>
                             <li>Terraform</li>
