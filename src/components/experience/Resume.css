@@ -67,10 +67,8 @@
   color: var(--first-color);
 }
 
-.tab__panel:first-of-type.is-active,
-.tab__panel:last-child.is-active {
+.tab__panel:first-of-type.is-active{
   border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
 }
 
 @media screen and (max-width: 768px) {
