@@ -8,7 +8,7 @@ const WorkExperience = [
             "Gained hands-on experience with AWS architecture, Docker, ECS, and container orchestration",
             "Implemented and maintained GitHub Actions for CI/CD pipelines, automating testing, building, and deployment processes. ",
             "Provisioned and manage AWS infrastructure, including Lambda, EC2, ECR, ECS, and S3, to support the pipeline’s development and maintenance. ",
-            "Configure Flask endpoints for the MLOps pipeline using AWS ECS, ECR, Docker, and GitHub Actions. ",
+            "Reduced deployment time by 40% by automating Flask API deployment on AWS ECS with Docker and GitHub Actions, enabling faster iteration cycles for the ML pipeline.",
             "Led the development of the VosynConnect Demo UI Webpage and collaborated with the Frontend team on Next.js to ensure smooth progress and task completion. ",
             "Drafted and formatted MVP design documentation for review by the founders, including capturing feedback and iterating on designs.",
             "Participated in daily scrum meetings, sprint planning, and retrospectives, contributing to effective project management and team collaboration",
