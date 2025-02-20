@@ -18,7 +18,7 @@ const Blog = () => {
 
                 <div className="blog__card">
                     <div className="blog__thumb">
-                        <a href=""><span className="blog__category">Kubernetes</span></a>
+                        <a href="https://www.linkedin.com/posts/roshan-ravindran_kubernetes-cloudcomputing-devops-activity-7284797578250985472-ydWe?utm_source=share&utm_medium=member_desktop"><span className="blog__category">Kubernetes</span></a>
                         <a href="https://www.linkedin.com/posts/roshan-ravindran_kubernetes-cloudcomputing-devops-activity-7284797578250985472-ydWe?utm_source=share&utm_medium=member_desktop"><img src={Image6} alt="" className='blog__img' /></a>
                     </div>
                     <div className="blog__details">
@@ -34,7 +34,7 @@ const Blog = () => {
 
                 <div className="blog__card">
                     <div className="blog__thumb">
-                        <a href=""><span className="blog__category">Kubernetes</span></a>
+                        <a href="https://training.linuxfoundation.org/certification/certified-kubernetes-administrator-cka/"><span className="blog__category">Kubernetes</span></a>
                         <a href="https://medium.com/@itsroshanr/my-journey-to-cka-certification-lessons-tips-and-a-handy-cheatsheet-34f6ea144ed9"><img src={Image5} alt="" className='blog__img' /></a>
                     </div>
                     <div className="blog__details">
