@@ -21,7 +21,10 @@ const WorkExperience = [
         yearsActive: "Sept 2023 - Present",
         information: [
             "Effectively communicate complex technical concepts to undergraduate students in a clear and understandable manner during weekly session.",
-            "Serve as a mentor to guide students through challenging topics in `Data Communications and Networking' as well as `Cryptography and Cryptographic Protocols'.",
+            "Serve as a mentor to guide students through challenging topics in:",
+            "Data Communications and Networking" ,
+            "Cryptography and Cryptographic Protocols",
+            "Distributed Systems & The Cloud",
             "Remain flexible in managing workload demands, effectively balancing responsibilities such as grading assignments, conducting sessions, and providing feedback to meet deadlines and student needs"
         ],
     },
