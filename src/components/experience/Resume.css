@@ -71,6 +71,11 @@
   border-top-left-radius: 0;
 }
 
+.tab__panel-sublist {
+  padding-left: 25px; /* Indent nested list */
+  /* list-style-type: disc; Or 'circle', 'square' */
+}
+
 @media screen and (max-width: 768px) {
   .resume__container {
     max-width: 100%;

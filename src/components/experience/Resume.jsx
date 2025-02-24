@@ -41,6 +41,16 @@ const Resume = () => {
                                 <p className="tab__panel-subtitle">{yearsActive}</p>
                                 <ul className="tab__panel-list">
                                     {information.map((info, index) => {
+
+                                        if (Array.isArray(info)) {
+                                            return (
+                                                <ul key={`info-${index}`} className="tab__panel-sublist">
+                                                    {info.map((subInfo, subIndex) => (
+                                                        <li key={`subinfo-${subIndex}`}>{subInfo}</li>
+                                                    ))}
+                                                </ul>
+                                            );
+                                        }
                                         return <li key={`info-${index}`}>{info}</li>;
                                     })}
                                 </ul>
