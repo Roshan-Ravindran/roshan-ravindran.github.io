@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b9e4dd1d.css",
-    "main.js": "/static/js/main.88933391.js",
+    "main.css": "/static/css/main.efa97806.css",
+    "main.js": "/static/js/main.6a42e1d4.js",
     "static/media/me-2.jpg": "/static/media/me-2.448ad2f87359e1a88fae.jpg",
     "static/media/windowsancilary.png": "/static/media/windowsancilary.e0b466599772d70b846d.png",
     "static/media/devel.png": "/static/media/devel.71b7fa95be91a8a646d7.png",
@@ -15,6 +15,7 @@
     "static/media/CKA.png": "/static/media/CKA.4d6b6316cbda8145525b.png",
     "static/media/cisco-nwess.png": "/static/media/cisco-nwess.97de23948fd43589f348.png",
     "static/media/AWS-CIS.png": "/static/media/AWS-CIS.0d2443bb0e1af0502eb5.png",
+    "static/media/generative-ai-badge.png": "/static/media/generative-ai-badge.efcc387eb027fe34a160.png",
     "static/media/google-cloud.png": "/static/media/google-cloud.58b470577d918f62fca2.png",
     "static/media/kube2.png": "/static/media/kube2.dc169d197c504fcab6ef.png",
     "static/media/SSO.png": "/static/media/SSO.fcc8dff730f3a3686f75.png",
@@ -22,11 +23,11 @@
     "static/media/dots-bg-dark.svg": "/static/media/dots-bg-dark.3fb919e37bd3f4cdeed2.svg",
     "static/media/dots-bg.svg": "/static/media/dots-bg.f9af2a6a4e3508808a05.svg",
     "index.html": "/index.html",
-    "main.b9e4dd1d.css.map": "/static/css/main.b9e4dd1d.css.map",
-    "main.88933391.js.map": "/static/js/main.88933391.js.map"
+    "main.efa97806.css.map": "/static/css/main.efa97806.css.map",
+    "main.6a42e1d4.js.map": "/static/js/main.6a42e1d4.js.map"
   },
   "entrypoints": [
-    "static/css/main.b9e4dd1d.css",
-    "static/js/main.88933391.js"
+    "static/css/main.efa97806.css",
+    "static/js/main.6a42e1d4.js"
   ]
 }
