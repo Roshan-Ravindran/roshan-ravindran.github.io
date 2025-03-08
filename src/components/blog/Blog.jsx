@@ -7,6 +7,7 @@ import Image3 from '../../assets/devel.png';
 import Image4 from '../../assets/ZAP.jpg';
 import Image5 from '../../assets/kube.png';
 import Image6 from '../../assets/kube2.png';
+import Image7 from '../../assets/generative-ai-badge.png';
 
 const Blog = () => {
     return (
@@ -15,6 +16,22 @@ const Blog = () => {
 
 
             <div className="blog__container grid">
+
+            <div className="blog__card">
+                    <div className="blog__thumb">
+                        <a href="https://www.linkedin.com/posts/roshan-ravindran_aws-awscommunity-awscertification-activity-7302926137809133568-GyrQ?utm_source=share&utm_medium=member_desktop&rcm=ACoAABagZP0B0eDL62FF3FpGmwA-i7nWxrtP1Fc"><span className="blog__category">AWS</span></a>
+                        <a href="https://www.linkedin.com/posts/roshan-ravindran_aws-awscommunity-awscertification-activity-7302926137809133568-GyrQ?utm_source=share&utm_medium=member_desktop&rcm=ACoAABagZP0B0eDL62FF3FpGmwA-i7nWxrtP1Fc"><img src={Image7} alt="" className='blog__img' /></a>
+                    </div>
+                    <div className="blog__details">
+                        <h3 className="blog__title">🚀Earned My AWS Introduction to Generative AI Badge + A Hidden Perk!</h3>
+                        <div className="blog__meta">
+                            <span>05 March, 2025</span>
+                            <span className="blog__dot">.</span>
+                            <span>LinkedIn</span>
+                        </div>
+                    </div>
+                </div>
+
 
                 <div className="blog__card">
                     <div className="blog__thumb">
