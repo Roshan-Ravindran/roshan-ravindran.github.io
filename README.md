@@ -1,7 +1,7 @@
 <h1 align="center">
   <br>
   <a href="https://roshan-ravindran.github.io/">
-  <img src="./src/assets/RR.png" alt="RoshanRavindran" width="200"></a>
+  <img src="public\avatar-1.png" alt="RoshanRavindran" width="200"></a>
   <br>
   Roshan Ravindran's Personal Website
   <br>
