@@ -19,28 +19,36 @@ const About = () => {
 
                 <div className="about__data grid">
                     <div className="about__info">
-                        <p className="about__description">
-                        I’m Roshan. A recent Master’s graduate in Cybersecurity from SFU with a passion for solving complex problems and automating solutions. My journey has been shaped by hands-on experience in cloud computing, DevOps, and cybersecurity.
-                        <br /><br />
-                        💻 What I Do <br /><br />
-                        {'▹'} Cloud Security & DevOps: I’ve worked on deploying secure solutions using AWS, Kubernetes, and Jenkins, ensuring compliance with industry benchmarks like CISv1.4.0.<br />
-                        {'▹'} At Vosyn, I led a team to develop and deploy the VosynConnect demo prototype while collaborating on frontend development and GCP hosting.<br />
-                        <br /><br />
+                    <p className="about__description">
+  Hi, I’m Roshan! A recent Master’s graduate in Cybersecurity from SFU and an engineer who thrives at the intersection of Cloud, Automation, and security. 
 
-                        🚀 My current goals include:<br /><br />
-                        {'▹'} Gaining Certifications to showcase my skills<br />
-                        {'▹'} Building personal projects to showcase my expertise in cloud and DevOps<br />
-                        {'▹'} Contributing to open-source communities<br />
-                        <br /><br />
-                        
-                        Here are some of the technologies I’ve been diving into recently:
-                        </p>
-                        
-                        <ul className="about__list">
-                            <li>AWS Solution Architect Certification</li>
-                            <li>Terraform</li>
-                            <li>Jenkins</li>
-                        </ul>
+  <br /><br />
+
+  💻 <strong>What I Bring to the Table</strong><br /><br />
+  {'▹'} <strong>Cloud Security & DevOps:</strong> I’ve worked hands-on with AWS, Kubernetes, Terraform, and Github Actions to deploy secure, scalable systems. I’ve implemented CIS benchmark-based auto-remediation in multi-account AWS setups, improving compliance and real-time threat response.<br /><br />
+  {'▹'} <strong>Startup Mindset:</strong> At Vosyn.ai, I led the development of a full-stack demo prototype (VosynConnect), collaborated with the frontend team using Next.js, and handled deployment on AWS — all under tight deadlines, quick iterations.<br /><br />
+  {'▹'} <strong>Ownership Mentality:</strong> Whether it's building a cafeteria ordering system solo during my early internship or stepping up to lead demo development for a startup, I take initiative and deliver.<br />
+
+  <br /><br />
+
+  🚀 <strong>Where I Thrive</strong><br /><br />
+{'▹'} As a fresh graduate, I’m in the phase of my career where <strong> learning, and hands-on experience matter most</strong><br />
+{'▹'} I’m open to working with <strong>minimal salary</strong> if the role challenges me and aligns with what I believe in<br />
+{'▹'} When I’m genuinely interested in the work, <strong>I’m all in, regardless of the hours</strong><br />
+{'▹'} I bring energy, adaptability, and a builder’s mindset to any team I join
+  <br /><br />
+
+  🔧 <strong>Tools & Tech I Work With</strong>
+</p>
+
+<ul className="about__list">
+  <li>AWS (IAM, EC2, S3, Lambda, ECR, ECS)</li>
+  <li>Kubernetes (self-hosted & cloud-managed)</li>
+  <li>Terraform & Infrastructure as Code</li>
+  <li>Jenkins & GitHub Actions for CI/CD</li>
+  <li>Docker, Node.js</li>
+  <li>CIS Benchmarks & Security Automation</li>
+</ul>
                         <button className="btn" onClick={downloadResume}>Download CV</button>
                     </div>
 
